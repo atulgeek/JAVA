@@ -1,9 +1,9 @@
 public class Dowhileloop {
     public static void main(String[] args) {
-        int i=5; 
-        do{
+        int i = 5;
+        do {
             System.out.println(i);
             i++;
-        } while (i>=10);
+        } while (i >= 10);
     }
 }
