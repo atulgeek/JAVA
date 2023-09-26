@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class Trails {
-    public static void grtlwr(int a, int b) {
+public class FuncGreaterLower {
+    public static void greaterlower(int a, int b) {
         if (a < b) {
             System.out.println("The first number is smaller");
         } else if (a > b) {
@@ -16,6 +16,6 @@ public class Trails {
         int a = sc.nextInt();
         System.out.print("Enter the Second Number : ");
         int b = sc.nextInt();
-        grtlwr(a, b);
+        greaterlower(a, b);
     }
 }
