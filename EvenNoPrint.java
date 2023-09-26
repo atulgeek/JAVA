@@ -5,8 +5,7 @@ public class EvenNoPrint {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Number of X :  ");
         int x = sc.nextInt();
-        int i;
-        for (i = 1; i <= x; i++)
+        for (int i = 1; i <= x; i++)
             if (i % 2 == 0) {
                 System.out.println(i);
             }

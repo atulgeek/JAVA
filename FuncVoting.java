@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Trails {
+public class FuncVoting {
     public static int Voting(int a) {
         if (a > 18) {
             System.out.println("Eligible to vote.");
