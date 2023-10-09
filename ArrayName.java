@@ -1,18 +1,19 @@
 import java.util.Scanner;
-
-public class Array {
+public class ArrayName {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter The Array Size : ");
         int size = sc.nextInt();
-        int number[] = new int[size];
+        String name[] = new String[size];
+
         // input
         for (int i = 0; i < size; i++) {
-            number[i] = sc.nextInt();
+            name[i] = sc.next();
         }
+
         // output
-        for (int i = 0; i < size; i++) {
-            System.out.println(number[i]);
+        for (int i = 0; i < name.length; i++) {
+            System.out.println("name " +(i+1)+ " is :" + name[i]);
         }
     }
 }
