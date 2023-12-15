@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.*;
 public class Array {
     public static void main(String[] args) {
         int [] marks = new int[3];
